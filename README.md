@@ -28,10 +28,10 @@
 
 在Podfile中添加
 ```
-  pod 'TCGSDK', :git => "https://github.com/the1dog/cloudgame-ios-sdk.git", :tag => '1.1.9'
+  pod 'TCGSDK', :git => "https://github.com/the1dog/cloudgame-ios-sdk.git", :tag => '1.1.9.1'
 
 # 虚拟按键可选库
-# pod 'TCGVKey', :git => "https://github.com/the1dog/cloudgame-ios-sdk.git", :tag => '1.1.9'
+# pod 'TCGVKey', :git => "https://github.com/the1dog/cloudgame-ios-sdk.git", :tag => '1.1.9.1'
 ```
 
 我们会定期更新SDK的功能，您可以在本工程SDK目录下获取最新的版本。
