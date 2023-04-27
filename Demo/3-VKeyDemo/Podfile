@@ -3,6 +3,6 @@ project './VKeyDemo.xcodeproj'
 target 'VKeyDemo' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
-  pod 'TCGSDK', :git => "https://github.com/the1dog/cloudgame-ios-sdk.git", :tag => '1.1.9.2'
-  pod 'TCGVKey', :git => "https://github.com/the1dog/cloudgame-ios-sdk.git", :tag => '1.1.9.2'
+  pod 'TCGSDK', :git => "https://github.com/the1dog/cloudgame-ios-sdk.git", :tag => '1.1.9.3'
+  pod 'TCGVKey', :git => "https://github.com/the1dog/cloudgame-ios-sdk.git", :tag => '1.1.9.3'
 end
