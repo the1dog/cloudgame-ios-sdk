@@ -17,7 +17,7 @@ typedef NS_ENUM(NSUInteger, TCGLogLevel){
 };
 
 /*! 单次透传二进制数据的最大字节数 */
-static int gTransCustomDataMaxLength = 1200;
+static int gTransCustomDataMaxLength = 12000;
 /*! 最多同时支持创建的透传通道个数 */
 static int gTransCustomDataChannelNum = 3;
 
