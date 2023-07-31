@@ -19,7 +19,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 @class RTCVideoFrame;
 
-typedef void (^RTCFrozenHandler)(BOOL isFreeze);
 RTC_OBJC_EXPORT
 @protocol RTCVideoRenderer <NSObject>
 
@@ -37,8 +36,6 @@ RTC_OBJC_EXPORT
 
 @optional
 -(RTCVideoFrame*)captureFrame;
-
-- (void)setFrozenHandler:(RTCFrozenHandler)handler frozenDelay:(int64_t)frozenDelay;
 
 @end
 
