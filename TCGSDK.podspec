@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = 'TCGSDK'
-  spec.version      = '1.1.9.12'
+  spec.version      = '1.1.9.13'
   spec.license      = { :type => 'MIT' }
   spec.homepage     = 'https://github.com/the1dog/cloudgame-ios-sdk'
   spec.summary      = 'Tencent Cloud Gaming Software Development Kit for iOS.'
